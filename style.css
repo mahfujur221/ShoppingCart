@@ -117,3 +117,11 @@ header {
     outline: none;
     width: 180px;
 }
+.header-search button {
+    border: none;
+    background: transparent;
+    color: white;
+    color: var(--gray);
+    padding: 6px 8px;
+    cursor: pointer;
+}
