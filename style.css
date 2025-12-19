@@ -90,3 +90,20 @@ header {
     background: linear-gradient(90deg, var(--accent), var(--primary));
     border-radius: 4px;
 }
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    background: rgba(255,255,255,0.12);
+    background: var(--light);
+    padding: 6px;
+    border-radius: 999px;
+    backdrop-filter: blur(4px);
+    border: 1px solid var(--gray-light);
+}
